@@ -2,239 +2,252 @@
     font-family: cursive;
 }
 
+.uper-text-heading {
+    background-color: #f1f3fd;
+    padding: 20px;
+    text-align: center;
+    max-height: max-content;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
 .uper-text-heading h1 {
-    font-size: 2.5em;
+    font-size: 3.5em;  /* Reduced size */
 }
 
 .uper-text-heading p {
-    font-size: 1.2em;
-}
-
-.image-book {
-    width: 10%;
-}
-
-.nav-heading > h1 {
-    font-size: 2em;
+    font-size: 1.5em;  /* Reduced size */
+    font-family: cursive;
 }
 
 .upload-file-div {
-    width: 90%;
-    padding: 20px;
-}
-
-.upload-file-div img {
-    width: 200px;
+    width: 80%;
+    margin: auto;
+    height: max-content;
+    border: 4px dashed #0020c1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;  /* Reduced padding */
+    gap: 15px;
+    margin-top: 50px;
 }
 
 .upload-file-div h1 {
-    font-size: 2em;
+    font-size: 2.5em;  /* Reduced size */
 }
 
 .upload-file-div p {
-    font-size: 20px;
+    font-size: 22px;  /* Reduced size */
 }
 
 .browse-button {
-    font-size: 24px;
+    background-color: #f1f3fd;
+    font-size: 24px;  /* Reduced size */
+    border: 1px solid  #e1e6ff;
+    cursor: pointer;
+    height: 60px;  /* Reduced size */
+    border-radius: 10px;
+    width: 180px;
+    font-family: cursive;
 }
 
 .copy-link-button {
-    font-size: 24px;
-}
-
-.url-input {
-    font-size: 24px;
+    background: none;
+    border: 1px solid #e1e6ff;
+    cursor: pointer;
+    font-size: 24px;  /* Reduced size */
+    padding: 10px 15px;
+    border-radius: 10px;
+    height: 60px;  /* Reduced height */
 }
 
 .extracted-div {
-    padding: 30px;
+    padding: 40px;  /* Reduced padding */
+    width: 80%;
+    margin: auto;
 }
 
 .extracted-text {
-    font-size: 20px;
+    font-size: 24px;  /* Reduced size */
+    margin-left: 0;
 }
 
 .about-application p {
-    font-size: 24px;
+    font-size: 28px;  /* Reduced size */
+    width: 50%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .howtouse h1 {
-    font-size: 30px;
+    font-size: 40px;  /* Reduced size */
 }
 
 .howtouse p {
-    font-size: 18px;
+    font-size: 24px;  /* Reduced size */
 }
 
-.howtouse ul li {
-    font-size: 22px;
+.where-to-use-div h1 {
+    text-align: center;
+    font-size: 2.5em;  /* Reduced size */
 }
 
 .single-div h1 {
-    font-size: 30px;
+    font-size: 32px;  /* Reduced size */
 }
 
 .single-div p {
-    font-size: 24px;
+    font-size: 28px;  /* Reduced size */
 }
 
 .footer p {
-    font-size: 28px;
+    font-size: 28px;  /* Reduced size */
 }
 
+.footer b {
+    font-size: 22px;  /* Reduced size */
+}
+
+/* For medium screens (tablet) */
+@media (max-width: 1000px) {
+    .uper-text-heading h1 {
+        font-size: 2.5em;  /* Reduced size */
+    }
+
+    .uper-text-heading p {
+        font-size: 1.2em;  /* Reduced size */
+    }
+
+    .upload-file-div h1 {
+        font-size: 2.2em;  /* Reduced size */
+    }
+
+    .upload-file-div p {
+        font-size: 20px;  /* Reduced size */
+    }
+
+    .file-button {
+        flex-direction: column;
+    }
+
+    .browse-button {
+        width: 100%;
+        font-size: 22px;  /* Reduced size */
+    }
+
+    .copy-link-button {
+        font-size: 22px;  /* Reduced size */
+        width: 100%;
+    }
+
+    .url-input {
+        font-size: 22px;  /* Reduced size */
+    }
+
+    .extracted-text {
+        font-size: 20px;  /* Reduced size */
+    }
+
+    .about-application p {
+        width: 100%;
+        font-size: 24px;  /* Reduced size */
+    }
+
+    .howtouse h1 {
+        font-size: 30px;  /* Reduced size */
+    }
+
+    .howtouse p {
+        font-size: 20px;  /* Reduced size */
+    }
+}
+
+/* For smaller devices (below 768px) */
 @media screen and (max-width: 768px) {
-    .uper-text-heading h1 {
-        font-size: 2em;
-    }
-
-    .uper-text-heading p {
-        font-size: 1.2em;
-    }
-
-    .image-book {
-        width: 30%;
-    }
-
-    .upload-file-div img {
-        width: 180px;
+    .where-to-use-div h1 {
+        font-size: 1.5em;  /* Reduced size */
     }
 
     .upload-file-div h1 {
-        font-size: 1.5em;
+        font-size: 2em;  /* Reduced size */
     }
 
     .upload-file-div p {
-        font-size: 18px;
-    }
-
-    .file-button {
-        flex-direction: column;
+        font-size: 18px;  /* Reduced size */
     }
 
     .browse-button {
-        width: 100%;
-        font-size: 20px;
+        font-size: 20px;  /* Reduced size */
     }
 
     .copy-link-button {
-        font-size: 20px;
-        width: 100%;
+        font-size: 20px;  /* Reduced size */
     }
 
     .url-input {
-        font-size: 20px;
+        font-size: 20px;  /* Reduced size */
     }
 
     .extracted-text {
-        font-size: 18px;
+        font-size: 18px;  /* Reduced size */
     }
 
     .about-application p {
-        font-size: 20px;
-    }
-
-    .about-application img {
-        width: 100%;
+        font-size: 20px;  /* Reduced size */
     }
 
     .howtouse h1 {
-        font-size: 25px;
+        font-size: 25px;  /* Reduced size */
     }
 
     .howtouse p {
-        font-size: 16px;
-    }
-
-    .howtouse ul li {
-        font-size: 20px;
-    }
-
-    .single-div {
-        padding: 20px;
-    }
-
-    .footer p {
-        font-size: 22px;
+        font-size: 18px;  /* Reduced size */
     }
 }
 
+/* For very small screens (mobile devices) */
 @media screen and (max-width: 480px) {
-    .where-to-use {
-        grid-template-columns: 1fr;
-    }
-
     .where-to-use-div h1 {
-        font-size: 1em;
-    }
-
-    .uper-text-heading h1 {
-        font-size: 2em;
-    }
-
-    .uper-text-heading p {
-        font-size: 1.2em;
-    }
-
-    .image-book {
-        width: 40%;
-    }
-
-    .upload-file-div img {
-        width: 150px;
+        font-size: 1.2em;  /* Reduced size */
     }
 
     .upload-file-div h1 {
-        font-size: 1.5em;
+        font-size: 1.8em;  /* Reduced size */
     }
 
     .upload-file-div p {
-        font-size: 16px;
-    }
-
-    .file-button {
-        flex-direction: column;
+        font-size: 16px;  /* Reduced size */
     }
 
     .browse-button {
-        width: 100%;
-        font-size: 18px;
+        font-size: 18px;  /* Reduced size */
     }
 
     .copy-link-button {
-        font-size: 18px;
-        width: 100%;
+        font-size: 18px;  /* Reduced size */
     }
 
     .url-input {
-        font-size: 18px;
+        font-size: 18px;  /* Reduced size */
     }
 
     .extracted-text {
-        font-size: 16px;
+        font-size: 16px;  /* Reduced size */
     }
 
     .about-application p {
-        font-size: 18px;
+        font-size: 16px;  /* Reduced size */
     }
 
     .howtouse h1 {
-        font-size: 20px;
+        font-size: 22px;  /* Reduced size */
     }
 
     .howtouse p {
-        font-size: 14px;
-    }
-
-    .howtouse ul li {
-        font-size: 16px;
-    }
-
-    .single-div {
-        padding: 10px;
-    }
-
-    .footer p {
-        font-size: 18px;
+        font-size: 16px;  /* Reduced size */
     }
 }
