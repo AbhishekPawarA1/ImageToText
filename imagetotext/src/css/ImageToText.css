@@ -16,19 +16,20 @@
 }
 
 .uper-text-heading h1 {
-    font-size: 2.5em; /* Reduced font size */
+    font-size: 1.5em;
 }
 
 .uper-text-heading p {
-    font-size: 0.9em; /* Reduced font size */
+    font-size: 0.5em;
 }
 
 .uper-text-heading b {
     color: red;
+    font-size: 0.5em;
 }
 
 .image-book {
-    width: 12%; /* Reduced image size */
+    width: 15%;
 }
 
 .nav-heading {
@@ -38,7 +39,7 @@
 }
 
 .nav-heading > h1 {
-    font-size: 1.8em; /* Reduced font size */
+    font-size: 1em;
     margin-top: 2%;
     font-family: 'Lucida Handwriting', 'Brush Script MT', cursive;
 }
@@ -52,43 +53,43 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 25px; /* Reduced padding */
-    gap: 10px; /* Reduced gap */
+    padding: 30px;
+    gap: 15px;
     margin-top: 50px;
 }
 
 .upload-file-div img {
-    width: 180px; /* Reduced image size */
+    width: 150px;
     height: auto;
     margin-bottom: 10px;
 }
 
 .upload-file-div h1 {
     margin: 0;
-    font-size: 1.8em; /* Reduced font size */
+    font-size: 1em;
 }
 
 .upload-file-div p {
-    font-size: 18px; /* Reduced font size */
+    font-size: 12px;
     color: gray;
 }
 
 .file-button {
     display: flex;
-    gap: 10px; /* Reduced gap */
+    gap: 15px;
     justify-content: center;
     align-items: center;
-    margin-top: 15px; /* Reduced margin */
+    margin-top: 20px;
 }
 
 .browse-button {
     background-color: #f1f3fd;
-    font-size: 24px; /* Reduced font size */
+    font-size: 18px;
     border: 1px solid #e1e6ff;
     cursor: pointer;
-    height: 45px; /* Reduced height */
+    height: 50px;
     border-radius: 10px;
-    width: 180px; /* Reduced width */
+    width: 200px;
     font-family: cursive;
     display: flex;
     align-items: center;
@@ -104,13 +105,13 @@
     background: none;
     border: 1px solid #e1e6ff;
     cursor: pointer;
-    font-size: 24px; /* Reduced font size */
+    font-size: 18px;
     padding: 10px 15px;
     border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 45px; /* Reduced height */
+    height: 50px;
 }
 
 .copy-link-button:hover {
@@ -119,16 +120,16 @@
 }
 
 .url-input {
-    height: 45px; /* Reduced height */
+    height: 50px;
     border-radius: 10px;
     padding: 10px;
-    font-size: 24px; /* Reduced font size */
+    font-size: 18px;
 }
 
 .extracted-div {
     display: flex;
     flex-direction: row;
-    padding: 40px; /* Reduced padding */
+    padding: 30px;
     width: 80%;
     margin: auto;
 }
@@ -143,13 +144,13 @@
 }
 
 .extracted-text {
-    font-size: 24px; /* Reduced font size */
+    font-size: 15px;
     width: 100%;
     margin-left: 30px;
 }
 
 .clear-button {
-    font-size: 18px; /* Reduced font size */
+    font-size: 12px;
 }
 
 .clear-button:hover {
@@ -159,8 +160,8 @@
 }
 
 .copy-button {
-    font-size: 24px; /* Reduced font size */
-    margin-top: 15px; /* Reduced margin */
+    font-size: 20px;
+    margin-top: 20px;
 }
 
 .copy-button:hover {
@@ -170,7 +171,7 @@
 }
 
 .loading-spinner {
-    font-size: 2.5em; /* Reduced font size */
+    font-size: 1.5em;
 }
 
 .about-application {
@@ -185,12 +186,12 @@
 }
 
 .about-application p {
-    font-size: 30px; /* Reduced font size */
+    font-size: 15px;
     width: 50%;
 }
 
 .about-application img {
-    width: 35%; /* Reduced image size */
+    width: 40%;
 }
 
 .orctotext {
@@ -204,27 +205,27 @@
 
 .howtouse {
     width: 80%;
-    padding: 25px; /* Reduced padding */
+    padding: 30px;
 }
 
 .howtouse h1 {
-    font-size: 40px; /* Reduced font size */
+    font-size: 30px;
     color: #4e6bf9;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .howtouse p {
-    font-size: 24px; /* Reduced font size */
+    font-size: 19px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .howtouse ul li {
-    font-size: 32px; /* Reduced font size */
+    font-size: 22px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .howtouse li {
-    margin-left: 40px; /* Reduced margin */
+    margin-left: 50px;
 }
 
 .where-to-use {
@@ -237,7 +238,7 @@
 
 .where-to-use-div h1 {
     text-align: center;
-    font-size: 2.5em; /* Reduced font size */
+    font-size: 1.5em;
 }
 
 .single-div {
@@ -246,7 +247,7 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    padding: 50px; /* Reduced padding */
+    padding: 50px;
     border-radius: 10px;
     justify-content: space-around;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -254,30 +255,30 @@
 }
 
 .single-div h1 {
-    font-size: 30px; /* Reduced font size */
+    font-size: 26px;
 }
 
 .single-div p {
-    font-size: 30px; /* Reduced font size */
+    font-size: 22px;
 }
 
 .footer {
     font-family: 'Roboto', sans-serif;
     color: #333;
     text-align: center;
-    padding: 20px;
+    padding: 18px;
     background-color: #f1f3fd;
-    padding: 80px; /* Reduced padding */
+    padding: 60px;
 }
 
 .footer p {
     font-family: 'Poppins', sans-serif;
-    font-size: 28px; /* Reduced font size */
+    font-size: 18px;
 }
 
 .footer b {
     font-family: 'Lucida Handwriting', 'Brush Script MT', cursive;
-    font-size: 20px; /* Reduced font size */
+    font-size: 15px;
 }
 
 /* For larger screens */
@@ -285,8 +286,8 @@
     .where-to-use {
         width: 80%;
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 20px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 18px;
         margin: auto;
     }
 }
@@ -296,76 +297,71 @@
     .where-to-use {
         width: 80%;
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
-        gap: 20px;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 18px;
         margin: auto;
-    }
-}
-@media screen and (max-width: 400px) {
-    .where-to-use {
-        grid-template-columns: 1fr;
     }
 }
 
 /* For smaller devices (below 768px) */
 @media screen and (max-width: 768px) {
     .where-to-use {
-        grid-template-columns: 2fr;
+        grid-template-columns: 1fr;
     }
     .single-div {
         padding: 10px;
-        font-size: 22px; /* Reduced font size */
+        font-size: 15px;
     }
     .single-div h1 {
-        font-size: 22px; /* Reduced font size */
+        font-size: 18px;
     }
     .single-div p {
-        font-size: 18px; /* Reduced font size */
+        font-size: 12px;
     }
     .uper-text-heading h1 {
-        font-size: 2.5em; /* Reduced font size */
+        font-size: 2em;
     }
     .uper-text-heading p {
-        font-size: 1.2em; /* Reduced font size */
+        font-size: 1em;
     }
     .image-book {
-        width: 25%; /* Reduced image size */
+        width: 30%;
     }
     .nav-heading > h1 {
-        font-size: 1.8em; /* Reduced font size */
+        font-size: 1.2em;
     }
     .upload-file-div {
         width: 90%;
-        padding: 15px; /* Reduced padding */
+        padding: 18px;
     }
     .upload-file-div img {
-        width: 200px; /* Reduced image size */
+        width: 200px;
     }
     .upload-file-div h1 {
-        font-size: 2.2em; /* Reduced font size */
+        font-size: 1.4em;
     }
     .upload-file-div p {
-        font-size: 20px; /* Reduced font size */
+        font-size: 15px;
     }
     .file-button {
         flex-direction: column;
     }
     .browse-button {
         width: 100%;
-        font-size: 22px; /* Reduced font size */
+        font-size: 18px;
     }
     .copy-link-button {
-        font-size: 22px; /* Reduced font size */
+        font-size: 18px;
         width: 100%;
     }
     .url-input {
-        font-size: 22px; /* Reduced font size */
+        font-size: 18px;
     }
     .extracted-div {
         flex-direction: column;
     }
     .extracted-text {
-        font-size: 22px; /* Reduced font size */
+        font-size: 18px;
         margin-left: 0;
     }
     .about-application {
@@ -374,21 +370,21 @@
     }
     .about-application p {
         width: 100%;
-        font-size: 24px; /* Reduced font size */
+        font-size: 15px;
     }
     .about-application img {
         width: 100%;
     }
     .howtouse h1 {
-        font-size: 30px; /* Reduced font size */
+        font-size: 25px;
     }
     .howtouse p {
-        font-size: 22px; /* Reduced font size */
+        font-size: 15px;
     }
     .howtouse ul li {
-        font-size: 24px; /* Reduced font size */
+        font-size: 15px;
     }
     .footer p {
-        font-size: 24px; /* Reduced font size */
+        font-size: 12px;
     }
 }
