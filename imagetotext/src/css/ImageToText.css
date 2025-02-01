@@ -16,11 +16,11 @@
 }
 
 .uper-text-heading h1 {
-    font-size: 3em;
+    font-size: 2.5em; /* Reduced font size */
 }
 
 .uper-text-heading p {
-    font-size: 1em;
+    font-size: 0.9em; /* Reduced font size */
 }
 
 .uper-text-heading b {
@@ -28,7 +28,7 @@
 }
 
 .image-book {
-    width: 15%;
+    width: 12%; /* Reduced image size */
 }
 
 .nav-heading {
@@ -38,7 +38,7 @@
 }
 
 .nav-heading > h1 {
-    font-size: 2em;
+    font-size: 1.8em; /* Reduced font size */
     margin-top: 2%;
     font-family: 'Lucida Handwriting', 'Brush Script MT', cursive;
 }
@@ -52,43 +52,43 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 30px;
-    gap: 15px;
+    padding: 25px; /* Reduced padding */
+    gap: 10px; /* Reduced gap */
     margin-top: 50px;
 }
 
 .upload-file-div img {
-    width: 200px;
+    width: 180px; /* Reduced image size */
     height: auto;
     margin-bottom: 10px;
 }
 
 .upload-file-div h1 {
     margin: 0;
-    font-size: 2em;
+    font-size: 1.8em; /* Reduced font size */
 }
 
 .upload-file-div p {
-    font-size: 20px;
+    font-size: 18px; /* Reduced font size */
     color: gray;
 }
 
 .file-button {
     display: flex;
-    gap: 15px;
+    gap: 10px; /* Reduced gap */
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    margin-top: 15px; /* Reduced margin */
 }
 
 .browse-button {
     background-color: #f1f3fd;
-    font-size: 30px;
+    font-size: 24px; /* Reduced font size */
     border: 1px solid #e1e6ff;
     cursor: pointer;
-    height: 50px;
+    height: 45px; /* Reduced height */
     border-radius: 10px;
-    width: 200px;
+    width: 180px; /* Reduced width */
     font-family: cursive;
     display: flex;
     align-items: center;
@@ -104,13 +104,13 @@
     background: none;
     border: 1px solid #e1e6ff;
     cursor: pointer;
-    font-size: 30px;
+    font-size: 24px; /* Reduced font size */
     padding: 10px 15px;
     border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 50px;
+    height: 45px; /* Reduced height */
 }
 
 .copy-link-button:hover {
@@ -119,16 +119,16 @@
 }
 
 .url-input {
-    height: 50px;
+    height: 45px; /* Reduced height */
     border-radius: 10px;
     padding: 10px;
-    font-size: 30px;
+    font-size: 24px; /* Reduced font size */
 }
 
 .extracted-div {
     display: flex;
     flex-direction: row;
-    padding: 50px;
+    padding: 40px; /* Reduced padding */
     width: 80%;
     margin: auto;
 }
@@ -143,13 +143,13 @@
 }
 
 .extracted-text {
-    font-size: 30px;
+    font-size: 24px; /* Reduced font size */
     width: 100%;
     margin-left: 30px;
 }
 
 .clear-button {
-    font-size: 20px;
+    font-size: 18px; /* Reduced font size */
 }
 
 .clear-button:hover {
@@ -159,8 +159,8 @@
 }
 
 .copy-button {
-    font-size: 30px;
-    margin-top: 20px;
+    font-size: 24px; /* Reduced font size */
+    margin-top: 15px; /* Reduced margin */
 }
 
 .copy-button:hover {
@@ -170,7 +170,7 @@
 }
 
 .loading-spinner {
-    font-size: 3em;
+    font-size: 2.5em; /* Reduced font size */
 }
 
 .about-application {
@@ -185,12 +185,12 @@
 }
 
 .about-application p {
-    font-size: 35px;
+    font-size: 30px; /* Reduced font size */
     width: 50%;
 }
 
 .about-application img {
-    width: 40%;
+    width: 35%; /* Reduced image size */
 }
 
 .orctotext {
@@ -204,27 +204,27 @@
 
 .howtouse {
     width: 80%;
-    padding: 30px;
+    padding: 25px; /* Reduced padding */
 }
 
 .howtouse h1 {
-    font-size: 50px;
+    font-size: 40px; /* Reduced font size */
     color: #4e6bf9;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .howtouse p {
-    font-size: 30px;
+    font-size: 24px; /* Reduced font size */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .howtouse ul li {
-    font-size: 40px;
+    font-size: 32px; /* Reduced font size */
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .howtouse li {
-    margin-left: 50px;
+    margin-left: 40px; /* Reduced margin */
 }
 
 .where-to-use {
@@ -237,7 +237,7 @@
 
 .where-to-use-div h1 {
     text-align: center;
-    font-size: 3em;
+    font-size: 2.5em; /* Reduced font size */
 }
 
 .single-div {
@@ -246,7 +246,7 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    padding: 70px;
+    padding: 50px; /* Reduced padding */
     border-radius: 10px;
     justify-content: space-around;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -254,11 +254,11 @@
 }
 
 .single-div h1 {
-    font-size: 40px;
+    font-size: 30px; /* Reduced font size */
 }
 
 .single-div p {
-    font-size: 36px;
+    font-size: 30px; /* Reduced font size */
 }
 
 .footer {
@@ -267,17 +267,17 @@
     text-align: center;
     padding: 20px;
     background-color: #f1f3fd;
-    padding: 100px;
+    padding: 80px; /* Reduced padding */
 }
 
 .footer p {
     font-family: 'Poppins', sans-serif;
-    font-size: 35px;
+    font-size: 28px; /* Reduced font size */
 }
 
 .footer b {
     font-family: 'Lucida Handwriting', 'Brush Script MT', cursive;
-    font-size: 25px;
+    font-size: 20px; /* Reduced font size */
 }
 
 /* For larger screens */
@@ -309,58 +309,58 @@
     }
     .single-div {
         padding: 10px;
-        font-size: 25px;
+        font-size: 22px; /* Reduced font size */
     }
     .single-div h1 {
-        font-size: 25px;
+        font-size: 22px; /* Reduced font size */
     }
     .single-div p {
-        font-size: 20px;
+        font-size: 18px; /* Reduced font size */
     }
     .uper-text-heading h1 {
-        font-size: 3em;
+        font-size: 2.5em; /* Reduced font size */
     }
     .uper-text-heading p {
-        font-size: 1.5em;
+        font-size: 1.2em; /* Reduced font size */
     }
     .image-book {
-        width: 30%;
+        width: 25%; /* Reduced image size */
     }
     .nav-heading > h1 {
-        font-size: 2em;
+        font-size: 1.8em; /* Reduced font size */
     }
     .upload-file-div {
         width: 90%;
-        padding: 20px;
+        padding: 15px; /* Reduced padding */
     }
     .upload-file-div img {
-        width: 250px;
+        width: 200px; /* Reduced image size */
     }
     .upload-file-div h1 {
-        font-size: 2.5em;
+        font-size: 2.2em; /* Reduced font size */
     }
     .upload-file-div p {
-        font-size: 24px;
+        font-size: 20px; /* Reduced font size */
     }
     .file-button {
         flex-direction: column;
     }
     .browse-button {
         width: 100%;
-        font-size: 24px;
+        font-size: 22px; /* Reduced font size */
     }
     .copy-link-button {
-        font-size: 24px;
+        font-size: 22px; /* Reduced font size */
         width: 100%;
     }
     .url-input {
-        font-size: 24px;
+        font-size: 22px; /* Reduced font size */
     }
     .extracted-div {
         flex-direction: column;
     }
     .extracted-text {
-        font-size: 24px;
+        font-size: 22px; /* Reduced font size */
         margin-left: 0;
     }
     .about-application {
@@ -369,21 +369,21 @@
     }
     .about-application p {
         width: 100%;
-        font-size: 28px;
+        font-size: 24px; /* Reduced font size */
     }
     .about-application img {
         width: 100%;
     }
     .howtouse h1 {
-        font-size: 35px;
+        font-size: 30px; /* Reduced font size */
     }
     .howtouse p {
-        font-size: 24px;
+        font-size: 22px; /* Reduced font size */
     }
     .howtouse ul li {
-        font-size: 28px;
+        font-size: 24px; /* Reduced font size */
     }
     .footer p {
-        font-size: 28px;
+        font-size: 24px; /* Reduced font size */
     }
 }
