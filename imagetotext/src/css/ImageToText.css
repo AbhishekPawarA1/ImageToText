@@ -136,6 +136,17 @@
     padding: 10px;
     font-size: 18px;
 }
+.convert-button{
+font-size: 20px;
+}
+.convert-button:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.url-input-container{
+    gap: 10px;
+}
 
 .extracted-div {
     display: flex;
@@ -236,7 +247,7 @@
 }
 
 .howtouse li {
-    margin-left: 50px;
+    margin-left: 30px;
 }
 
 .where-to-use {
