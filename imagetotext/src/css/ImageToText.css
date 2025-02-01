@@ -15,17 +15,17 @@
     align-items: center;
 }
 
-.uper-text-heading h1 {
-    font-size: 1.5em;
+.uper-text-heading>h1 {
+    font-size: 2em;
 }
 
-.uper-text-heading p {
-    font-size: 0.5em;
+.uper-text-heading>p {
+    font-size: 1.5em;
 }
 
 .uper-text-heading b {
     color: red;
-    font-size: 0.5em;
+    font-size: 1.5em;
 }
 
 .image-book {
@@ -39,7 +39,7 @@
 }
 
 .nav-heading > h1 {
-    font-size: 1em;
+    font-size: 1.5em;
     margin-top: 2%;
     font-family: 'Lucida Handwriting', 'Brush Script MT', cursive;
 }
