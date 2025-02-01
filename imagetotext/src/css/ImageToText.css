@@ -31,6 +31,17 @@
 .image-book {
     width: 15%;
 }
+.cursive-name {
+    font-size: 2.5em;
+    font-family: 'Lucida Handwriting', 'Brush Script MT', cursive;
+}
+.heading {
+    font-size: 3em;
+
+}
+.para {
+    font-size: 2em;
+}
 
 .nav-heading {
     display: flex;

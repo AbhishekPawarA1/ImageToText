@@ -132,11 +132,11 @@ export function ImageToText() {
     <>
       <div className="nav-heading">
         <img className="image-book" src={bookGif} alt="Book GIF" />
-        <h1>Images to Text</h1>
+        <h1 className="cursive-name">Images to Text</h1>
       </div>
       <div className="uper-text-heading">
-        <h1>Image to Text Converter</h1>
-        <p>
+        <h1 className="heading">Image to Text Converter</h1>
+        <p className="para">
           An Online <b>image to text</b> converter to extract text from images
         </p>
       </div>
