@@ -229,7 +229,7 @@
 }
 
 .where-to-use {
-    width: 80%;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
@@ -238,7 +238,7 @@
 
 .where-to-use-div h1 {
     text-align: center;
-    font-size: 1.5em;
+    font-size: 1em;
 }
 
 .single-div {
@@ -247,7 +247,7 @@
     flex-direction: column;
     justify-content: center;
     text-align: center;
-    padding: 50px;
+    padding: 10px;
     border-radius: 10px;
     justify-content: space-around;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -255,11 +255,11 @@
 }
 
 .single-div h1 {
-    font-size: 26px;
+    font-size: 18px;
 }
 
 .single-div p {
-    font-size: 22px;
+    font-size: 14px;
 }
 
 .footer {
