@@ -285,7 +285,7 @@
     .where-to-use {
         width: 80%;
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         gap: 20px;
         margin: auto;
     }
@@ -296,16 +296,21 @@
     .where-to-use {
         width: 80%;
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(3, 1fr);
         gap: 20px;
         margin: auto;
+    }
+}
+@media screen and (max-width: 400px) {
+    .where-to-use {
+        grid-template-columns: 1fr;
     }
 }
 
 /* For smaller devices (below 768px) */
 @media screen and (max-width: 768px) {
     .where-to-use {
-        grid-template-columns: 1fr;
+        grid-template-columns: 2fr;
     }
     .single-div {
         padding: 10px;
