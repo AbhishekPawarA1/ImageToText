@@ -1,6 +1,6 @@
 import "../css/ImageToText.css";
 import bookGif from "../images/book.gif";
-import galary from "../images/galary.jpg";
+import galary from "../images/galary-2image.png";
 import { useRef, useState } from "react";
 import Tesseract from "tesseract.js";
 import jpgtotext from "../images/jpg-to-text-img.jpg";
@@ -143,7 +143,7 @@ export function ImageToText() {
       <div className="upload-file-div">
         <img src={galary} alt="Gallery" />
         <h1>Upload or Paste images</h1>
-        <p>Supported format: JPG, PNG</p>
+        <p>Supported format:PNG,JPG,JPEG</p>
         <div className="file-button">
           <button
             type="button"
