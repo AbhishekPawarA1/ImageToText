@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&family=Poppins:wght@400;500&display=swap');
 
-* {
-    font-family: cursive;
-}
+
 
 .uper-text-heading {
     background-color: #f1f3fd;
@@ -41,6 +39,9 @@
 }
 .para {
     font-size: 2em;
+}
+.para >b {
+    font-family: 'Lucida Handwriting', 'Brush Script MT', cursive;
 }
 
 .nav-heading {
@@ -282,7 +283,10 @@ font-size: 20px;
 
 .single-div p {
     font-size: 14px;
+    font-family: 'Great Vibes', cursive; /* Change to 'Satisfy', 'Parisienne', or others */
+    color: #333; /* Change to any of the above fonts */
 }
+
 
 .footer {
     font-family: 'Roboto', sans-serif;
@@ -360,7 +364,7 @@ font-size: 20px;
         width: 200px;
     }
     .upload-file-div h1 {
-        font-size: 1.4em;
+        font-size: 1.7em;
     }
     .upload-file-div p {
         font-size: 15px;

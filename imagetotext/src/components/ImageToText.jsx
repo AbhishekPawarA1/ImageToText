@@ -137,7 +137,7 @@ export function ImageToText() {
       <div className="uper-text-heading">
         <h1 className="heading">Image to Text Converter</h1>
         <p className="para">
-          An Online <b>image to text</b> converter to extract text from images
+          An Online <b> image to text </b> converter to extract text from images
         </p>
       </div>
       <div className="upload-file-div">
@@ -287,9 +287,9 @@ export function ImageToText() {
         </div>
       </div>
       <footer className="footer">
-        <p>© 2025 all rights reserved - Imagetotextbyabhi.</p>
-        <p>A product of Imagetotextbyabhi.</p>
-        <b>Develop by ABhishek Pawar</b>
+        <p>© 2025 all rights reserved - Imagetotext-by-abhi.</p>
+        <p>A product of Imagetotext-by-abhi.</p>
+        <b>Develop by Abhishek Pawar</b>
       </footer>
     </>
   );
