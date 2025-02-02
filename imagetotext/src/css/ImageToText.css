@@ -49,6 +49,18 @@
     justify-content: left;
     align-items: center;
 }
+.nav-heading-div {
+    display: flex;
+    justify-content: space-between;
+}
+.namelogo{
+    width:min-content;
+    height: min-content;
+    width: 250px;
+    margin-top: 30px;
+    align-items: center;
+    padding: 0%;
+}
 
 .nav-heading > h1 {
     font-size: 1.5em;
