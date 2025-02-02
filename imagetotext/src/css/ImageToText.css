@@ -56,10 +56,8 @@
 .namelogo{
     width:min-content;
     height: min-content;
-    width: 250px;
-    margin-top: 30px;
+    width: 100px;
     align-items: center;
-    padding: 0%;
 }
 
 .nav-heading > h1 {
